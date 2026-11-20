@@ -1,0 +1,75 @@
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 6%;
+  background: white;
+  border-bottom: 1px solid #e3e8ef;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1464a0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  font-weight: 600;
+  color: #52657a;
+}
+
+.nav-links a.active {
+  color: #1464a0;
+}
+
+.contenido {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  flex: 1;
+}
+
+.contenido h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-top: 0;
+}
+
+.contenido p {
+  line-height: 1.7;
+}
+
+.footer {
+  padding: 24px;
+  text-align: center;
+  background: #172b4d;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    padding: 18px;
+  }
+
+  .contenido {
+    padding: 28px 18px;
+  }
+}
