@@ -245,7 +245,7 @@ npm run build
 npm run preview
 ```
 
-### 7. Ejecutar ESLint
+### 7. Ejecutar OxLint
 
 ```bash
 npm run lint
