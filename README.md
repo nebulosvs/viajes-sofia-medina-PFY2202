@@ -272,6 +272,12 @@ Se realizaron comprobaciones manuales de las siguientes funcionalidades:
 
 Las solicitudes REST y GraphQL se verificaron mediante las herramientas de desarrollo del navegador, comprobando las respuestas simuladas por MSW.
 
+### Evidencias de pruebas
+
+Se realizaron pruebas manuales de funcionamiento y compatibilidad en **Google Chrome, Mozilla Firefox y Opera GX**, verificando la navegación, el diseño responsive y las funcionalidades principales de la aplicación.
+
+Las capturas y el registro de casos de prueba se encuentran disponibles en la carpeta [`evidencias/`](./evidencias/PRUEBAS.md).
+
 ## 🌍 Publicación
 
 La aplicación se encuentra publicada mediante **GitHub Pages**.
